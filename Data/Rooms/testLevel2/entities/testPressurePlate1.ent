@@ -1,0 +1,7 @@
+name~testPressurePlate1 
+coord~[1, 1, 0] 
+type~PressurePlate 
+body~[[0,0,0]]
+targetEntity~pressurePlateNPC1
+triggerType~Talk
+triggeredBy~Player

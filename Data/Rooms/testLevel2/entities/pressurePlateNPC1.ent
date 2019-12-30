@@ -1,0 +1,11 @@
+name~pressurePlateNPC1 
+coord~[0, 0, 0] 
+type~NPC 
+visible~N
+
+LOAD_CONVERSATION
+open~Opening Bit|This is a test conversation to see if we can start a conversation/cutscene-like chain of commands as soon as we enter a level.|!RE:testLevel2:testPressurePlate1|!XX:
+!setStartTopic:open
+!setStartPart:1
+!participants:Player
+END_CONVERSATION

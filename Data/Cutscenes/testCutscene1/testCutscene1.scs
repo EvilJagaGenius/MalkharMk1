@@ -1,0 +1,24 @@
+BACKGROUND=X
+FOREGROUND=X
+
+LOAD_IMAGES
+END_IMAGES
+
+LOAD_CONVERSATION
+conv1~!CA:testPuppet:talk|!CD:testPuppet:0:1:0|I suppose you're wondering what's happening here.  Well, this is a test for animating cutscenes purely with sprites, in the style of Freedom Planet.|!XX:
+!setStartTopic:conv1
+!setStartPart:0
+END_CONVERSATION
+
+ANIM_COMMANDS
+0:movePuppet|testPuppet|0|400
+0:changePuppetDirection|testPuppet|1|0|0
+0:changePuppetMotion|testPuppet|walkMotion
+0:changePuppetAnimation|testPuppet|walk
+30:changePuppetMotion|testPuppet|noMotion
+30:startConversation|conv1
+60:end
+END_ANIM_COMMANDS
+
+FINAL_COMMANDS
+END_FINAL_COMMANDS

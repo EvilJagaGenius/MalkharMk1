@@ -1,0 +1,53 @@
+PLAYER_STATS
+pts|mep|100
+pts|map|10
+pts|chp|100
+pts|cap|10
+pts|mhp|100
+pts|cep|100
+mag|amth|0
+mag|diam|0
+mag|saph|0
+mag|ambr|0
+mag|emer|0
+mag|ruby|0
+mag|aqua|0
+phy|dex|1
+phy|con|1
+phy|per|1
+phy|str|1
+phy|wil|1
+phy|agi|1
+END_PLAYER_STATS
+
+INVENTORY
+TestItem|5|5|0|1
+END_INVENTORY
+
+EQUIPPED
+Right Ammo|X
+Right Hand|X
+Left Ammo|X
+Amulet|X
+Armor|X
+Left Hand|X
+END_EQUIPPED
+
+BUFFS
+END_BUFFS
+
+POSITION
+level|testLevel
+coordX|5
+coordY|5
+coordZ|0
+directionX|1
+directionY|1
+directionZ|0
+END_POSITION
+
+PER_LEVEL
+testLevel:removeObjectAt~5|5|0
+testLevel2:removeEntity~testPressurePlate1
+END_PER_LEVEL
+

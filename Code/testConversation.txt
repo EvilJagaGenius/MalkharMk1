@@ -1,0 +1,7 @@
+LOAD_CONVERSATION
+open~Hi!  I'm a test NPC.|Testing the skip flag.  This text shouldn't show up. !SK:|This is another skip flag. !SK:|This is the text after the skip flags.  So the skip flags work, let's try a choice box next.|Pick a song, any song: !SK:|!CB:cleo/exit
+cleo~Guardian Angel (Cleopatra's Theme)|Fear not the nightfall, light will arise with the dawn|Lay your cares at your side, and listen for song in the silence|There's a guardian angel that watches over me|And I know that one watches over you|So now you know, don't let it go|I wish that I could understand it all|My greatest hope: to hear it one more time|The melody of the angel's lullaby|!GT:open/4
+exit~Exit Conversation|See ya!|!XX:
+!setStartTopic:open
+!setStartPart:0
+END_CONVERSATION

@@ -1,0 +1,5 @@
+name~Exit1 
+coord~[19, 1, 0] 
+type~ExitPt 
+targetLevel~testLevel2
+targetSpawn~Spawn1

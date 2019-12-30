@@ -1,0 +1,11 @@
+name~testNPC 
+coord~[4, 1, 0] 
+type~NPC 
+LOAD_CONVERSATION
+open~Opening bit|!CA:testNPC:talk|Hi!  I'm a test NPC.|!CA:testNPC:talk|Testing the skip flag. !SK:|!CA:testNPC:talk|This is !PS:30 a pause flag.|!CA:testNPC:talk|Pick a song, any song: !SK:|!CB:cleo/exit
+cleo~Guardian Angel (Cleopatra's Theme)|!CA:testNPC:talk|Fear not the nightfall, light will arise with the dawn|!CA:testNPC:talk|Lay your cares at your side, and listen for song in the silence|!CA:testNPC:talk|There's a guardian angel that watches over me|!CA:testNPC:talk|And I know that one watches over you|!CA:testNPC:talk|So now you know, don't let it go|!CA:testNPC:talk|I wish that I could understand it all|!CA:testNPC:talk|My greatest hope: to hear it one more time|!CA:testNPC:talk|The melody of the angel's lullaby|!GT:open/8
+exit~Exit Conversation|See ya!|!XX:
+!setStartTopic:open
+!setStartPart:1
+!participants:Player,testNPC
+END_CONVERSATION

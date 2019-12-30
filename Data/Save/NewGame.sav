@@ -1,0 +1,54 @@
+// This is a test.
+// These lines should be comments, meaning they won't appear in the final versions.
+// Anyway, DO NOT MODIFY THIS FILE.  You have been warned.
+
+PLAYER_STATS
+phy|str|1
+phy|con|1
+phy|agi|1
+phy|dex|1
+phy|per|1
+phy|wil|1
+mag|ruby|0
+mag|emer|0
+mag|ambr|0
+mag|saph|0
+mag|aqua|0
+mag|diam|0
+mag|amth|0
+pts|chp|100
+pts|mhp|100
+pts|cep|100
+pts|mep|100
+pts|cap|10
+pts|map|10
+END_PLAYER_STATS
+
+INVENTORY
+END_INVENTORY
+
+EQUIPPED
+Right Hand|X
+Left Hand|X
+Right Ammo|X
+Left Ammo|X
+Armor|X
+Amulet|X
+END_EQUIPPED
+
+BUFFS
+END_BUFFS
+
+POSITION
+level|testLevel
+coordX|1
+coordY|1
+coordZ|0
+directionX|0
+directionY|1
+directionZ|0
+END_POSITION
+
+PER_LEVEL
+END_PER_LEVEL
+

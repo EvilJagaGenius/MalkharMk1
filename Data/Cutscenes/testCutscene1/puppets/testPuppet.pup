@@ -1,0 +1,8 @@
+NAME=testPuppet
+VISIBLE=Y
+SPRITESHEET=PlayerSheet.png|64|64
+ANIMATIONS
+walk=0,0,0|5,0,2|10,goto:0|-1,changeAnim:idle
+talk=0,0,0|5,0,1|10,goto:0|-1,changeAnim:idle
+idle=0,0,0|1,goto:0|-1,goto:0
+END_ANIMATIONS

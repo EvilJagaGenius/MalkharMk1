@@ -1,0 +1,25 @@
+A quick reference as to what special flags do in NPC conversations.  Flags are an exclamation point followed by two letters and a colon that indicate a special action is supposed to take place.
+
+!XX:
+	Exit.  End the conversation.
+
+!SK:
+	Skip.  Put at the very end of a block of text to automatically jump ahead to the next part.
+
+!GT:topic/part
+	Go to.  Jump to the desired topic and part of the conversation.
+
+!CB:topic/topic/.../topic
+	Choice box.  Let the user pick from a list of topics to jump to.
+
+!CA:entity:animation
+	Change animation.  Change the animation of the desired entity.
+
+!CD:entity:x:y:z
+	Change direction.  Change the direction the entity is currently facing.
+
+!PS:numberOfFrames
+	Pause.  Pause the text scrolling for some number of frames.
+
+!RE:level:entity
+	Remove entity.  Removes the entity with the desired name from the desired level.
